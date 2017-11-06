@@ -1,0 +1,3 @@
+* The default compilation via TeXShop, as included in the MacTeX distribution,
+    appears to work with color emoji's while my normal make recipe doesn't...
+
