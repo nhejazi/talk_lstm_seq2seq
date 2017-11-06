@@ -30,8 +30,8 @@
 \usepackage{url}
 
 % specifications for presenter mode
-%\beamerdefaultoverlayspecification{<+->}
-%\setbeamercovered{transparent}
+\beamerdefaultoverlayspecification{<+->}
+\setbeamercovered{transparent}
 
 % math shorthand
 \usepackage{bm}
@@ -146,7 +146,7 @@
     way to learn in settings with long-range temporal dependencies.
   \item The LSTM operates by estimating $p(y_1, \dots, y_{T'} \mid x_1, \dots,
     x_T)$, where the lengths $T$ and $T'$ need not be identical.
-  \item The approach here employed networks in two simple steps:
+  \item The approach employed here works in two simple steps:
     \begin{enumerate}
       \item Obtain a fixed-dimensional representation $v$ of $(x_1, \dots, x_T)$
         (the last hidden state of the LSTM).
@@ -327,8 +327,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % don't want dimming with references
-%\setbeamercovered{}
-%\beamerdefaultoverlayspecification{}
+\setbeamercovered{}
+\beamerdefaultoverlayspecification{}
 
 \begin{frame}[c,allowframebreaks]{References}
 
